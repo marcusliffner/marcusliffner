@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+
+<h2>Enter the amount you would like to add!</h2>
+<form action="/addcash" method="POST">
+    <div class="mb-3">
+        <input autofocus class="form-control mx-auto w-auto" name="amount" id="amount" placeholder="Amount" type="text">
+
+    </div>
+    <button class="btn btn-primary" type="submit">Add Cash</button>
+</form>
+
+{% endblock %}

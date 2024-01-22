@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+<h2>Enter a stock symbol and the number you want to sell! </h2>
+ <form action="/sell" method="POST">
+    <div class="mb-3">
+        <select class="form-select mx-auto w-auto" name="symbol">
+            <option disabled selected>Symbol</option>
+            {% for ownedstock in ownedstocks %}
+                <option value="{{ ownedstock.symbol }}">{{ ownedstock.symbol }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <input autofocus class="form-control mx-auto w-auto" id="shares" name="shares" placeholder="Shares" type="text">
+
+    </div>
+    <button class="btn btn-primary" type="submit">Sell</button>
+</form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Current Price</th>
+                <th>Shares</th>
+                <th>Total Value </th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+    {% for ownedstock in ownedstocks %}
+        <tr>
+            <td>{{ ownedstock.symbol }}</td>
+            <td>{{ ownedstock.price }}</td>
+            <td>{{ ownedstock.shares }}</td>
+            <td>{{ ownedstock.totalvalue }}</td>
+        </tr>
+    {% endfor %}
+
+        </tbody>
+    </table>
+
+{% endblock %}
