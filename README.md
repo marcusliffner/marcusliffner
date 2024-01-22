@@ -30,7 +30,7 @@ In my spare time I develope websites, Games, IoT or anything related to IT intre
 - 🔭 I’m currently working on a Line Tower Defence Game
 - 🌱 I’m currently learning LÖVE, LUA
 - 👯 I’m looking to collaborate on games related to IoT
-- 🤔 I’m looking for help with 
+- 🤔 I’m looking for help with JavaScript canvas game npc smart movement :sweat_smile:
 - 💬 Ask me about creative programing projects
 - 📫 How to reach me: <a href="https://www.linkedin.com/in/marcus-liffner-4a2b86a4/">LinkedIn</a>
 - 😄 Pronouns: He/Him
