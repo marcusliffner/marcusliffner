@@ -25,6 +25,7 @@ In my spare time I develope websites, Games or anything related to IT interestin
 <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original-wordmark.svg" alt="Bootstrap" width="40" height="40"/> </a>
 <a href="https://love2d.org/" target="_blank"> LÖVE </a>
 
+<a href="https://readme-jokes.vercel.app"><img align="center" src="https://readme-jokes.vercel.app/api" alt="README Jokes"></a>
 
 
 - 🔭 I’m currently working on a Line Tower Defence Game
@@ -36,6 +37,11 @@ In my spare time I develope websites, Games or anything related to IT interestin
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I actually like PHP 🤷‍♂️
   
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=marcusliffner&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
+
+[![Marcus Liffner Medium](https://github-readme-medium.vercel.app/?username=marcusliffner)](https://marcusliffner.medium.com/)
+
 <!--
 **marcusliffner/marcusliffner** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
