@@ -36,11 +36,12 @@ In my spare time I develope websites, Games or anything related to IT interestin
 - 📫 How to reach me: <a href="https://www.linkedin.com/in/marcus-liffner-4a2b86a4/">LinkedIn</a>
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I actually like PHP 🤷‍♂️
-  
-##Stats
+
+
+## Code Language Stats
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=marcusliffner&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="ovi" />
 
-##Published articles
+## Published articles
 [![Marcus Liffner Medium](https://github-readme-medium.vercel.app/?username=marcusliffner)](https://marcusliffner.medium.com/)
 
 <!--
