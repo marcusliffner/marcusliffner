@@ -1,7 +1,7 @@
 ### Hi, I´m Marcus
 ## About Me
 I work as a Educational Leader for Web developers, system developers and IT-Project Managers.
-In my spare time I develope websites, Games or anything related to IT intressing to me at that time. 
+In my spare time I develope websites, Games or anything related to IT interesting to me at that time. 
 
 ## Tools
 <a href="https://code.visualstudio.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/> </a>
