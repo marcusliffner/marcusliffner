@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'MontserratBold';
+    src: url(/img/Montserrat-Bold.ttf);
+  }
+
+  *{   font-family: MontserratBold; }
+  html, body {   margin: 0;   }
+
+  .logo{
+    height: 60px;
+    width: 140px; 
+    background-image:url("img/TUC-logotyp-yrkeshogskola-PMS485_coolgrey9.svg");
+    background-color:#FFF;
+    background-repeat:no-repeat;
+    background-position: left;
+    background-size: 100%;
+    margin-left: 5%;
+  }
+
+  header{
+    min-width:412px;
+    height:60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color:#FFF;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 0px rgba(0,0,0,0.24);
+  }
+
+  header nav{
+    background-color:#FFF;
+    height: 60px;
+    align-items: center;    
+    margin-left: 45%;
+    position:absolute;
+  }
+  section{
+    max-width: 100%;
+    height: auto;
+    background-color: #f8f8fa;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  section .sectioncontainer{
+    max-width: 960px;
+    height: auto;    
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+  }
+  section .sectiontext{   
+    max-width: 20%;
+    min-width: 260px;
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+
+  }
+  aside
+  {
+    position:sticky;
+    float: left;
+    margin: auto;
+    top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media screen and (max-width: 1200px) and (min-width: 374px)
+  {
+    aside
+     {
+        position:initial;
+        float: none;
+        margin: auto;
+        top: 60px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+       }
+    }
+
+  article{
+    max-width: 960px;
+    margin: auto;
+    background-color: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1%;
+  }
+
+  article .website-preview{
+    background-color:#FFF;
+    width: 260px;
+    height: 340px;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 10px;
+    /* box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.38);*/
+    box-shadow:  3px 3px 3px 0px rgba(0,0,0,0.24), 1px 1px 4px 0px rgba(0,0,0,0.24); 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 20px;
+    padding-top: 10px;
+    
+}
+
+/* unvisited link */
+article .website-preview:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+article .website-preview:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+article .website-preview:hover {
+  color: black;
+  text-decoration: none;
+  /* ej kompatibel med sticky header transform: scale(1.05);*/
+  box-shadow:  6px 6px 6px rgba(0,0,0,0.12), 3px 3px 9px rgba(0,0,0,0.24);
+}
+
+/* selected link */
+article .website-preview:active {
+  text-decoration: none;
+  color: black;
+}
+article  .website-preview h3{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+}
+article  .website-preview img{
+  text-align: center;
+  width: 250px;
+  height: 160px;
+  padding-left: 5px;
+  margin: auto;
+  border-radius: 10px;
+}
+article  .website-previewnoimg{
+  text-align: center;
+  width: 250px;
+  height: 160px;
+  margin: auto;
+}
+article  .website-preview p{
+    text-align: center;
+    font-size: 12px;
+    width: 250px;
+    height: 110px;
+    margin: auto;
+    overflow: hidden;
+}
+
+footer{
+    background: rgba(1,11,25,.8);
+    min-height: 50px;
+    width: 100%;
+    color: #FFF;
+    padding: 4rem 0;
+    margin-top: 3rem;
+    position:relative;
+    bottom:0;
+
+}
+footer p{
+    color: #FFF;   
+    font-size: 12px;
+    text-align: center;
+    width: 300px;
+    height:100px;
+    margin: auto;
+    align-items: center;
+}
+
+
+
+
+
