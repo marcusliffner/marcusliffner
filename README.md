@@ -1,6 +1,6 @@
 ### Hi, I´m Marcus
 ## About Me
-I work as a Educational Leader for Web developers, system developers and IT-Project Manegers.
+I work as a Educational Leader for Web developers, system developers and IT-Project Managers.
 In my spare time I develope websites, Games, IoT or anything related to IT intressing to me at that time. 
 
 ## Tools
